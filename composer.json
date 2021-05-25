@@ -1,6 +1,6 @@
 {
     "require": {
-        "johnpbloch/wordpress": ">=5.4",
+        "johnpbloch/wordpress": ">=5.7",
         "wpackagist-theme/twentynineteen": "*",
         "wpackagist-theme/twentytwenty": "*",
         "wpackagist-theme/twentytwentyone": "*",
@@ -8,7 +8,8 @@
     },
     "require-dev": {
         "wpackagist-plugin/query-monitor": "^3.7",
-        "wpackagist-plugin/amazon-s3-and-cloudfront": "^2.5.3"
+        "wpackagist-plugin/amazon-s3-and-cloudfront": "^2.5.3",
+        "wpackagist-plugin/redis-cache": "^2.0.18"
     },
     "extra": {
         "installer-paths": {
